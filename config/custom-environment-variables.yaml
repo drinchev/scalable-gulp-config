@@ -1,0 +1,17 @@
+#
+#  Custom Environment Variables
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#  ◆ This file maps some environmental variables to our configuration that can be
+#    override by the environment.
+#
+#    https://github.com/lorenwest/node-config/wiki/Environment-Variables
+#
+
+ports:
+  app: 'PORT'
+
+# We will use the CI server for deployment
+package:
+  revision: 'CIRCLE_SHA1'
+  branch: 'CIRCLE_BRANCH'

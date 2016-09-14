@@ -1,0 +1,39 @@
+#
+#  Configuration for MyAwesomeProject
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#  The `paths` section is used by Gulp to provide fine grain control and DRY
+#  principle in the configuration files.
+#  
+#  This file is being read by node-config
+#
+
+paths:
+  source:
+    root: '.'
+    fonts: '/fonts'
+    server: '/src'
+    images: '/images'
+    scripts: '/scripts'
+    templates: '/templates'
+    stylesheets: '/stylesheets'
+  build:
+    root: './.build'
+    server: '/'
+    templates: '/templates'
+    package: '/../.packages'
+    www:
+      root: '/www'
+      fonts: '/fonts'
+      images: '/images'
+      vendors: '/vendors'
+      scripts: '/scripts'
+      stylesheets: '/stylesheets'
+
+# Other notable variables also can exist here
+port: 8080
+
+# Default configuration for package task
+package:
+  revision: "snapshot"
+  branch: "branchless"

@@ -1,0 +1,25 @@
+{
+  "name": "scalable-gulp-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@firma-de/gulp-package": "0.0.1",
+    "config": "^1.16.0",
+    "del": "^2.0.2",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-typescript": "^2.13.6",
+    "js-yaml": "^3.6.1",
+    "lodash": "^4.15.0"
+  }
+}
